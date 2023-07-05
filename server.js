@@ -259,13 +259,6 @@ async function updateEmployee() {
         };
     };
 
-
-    const dbParams = [
-        [params.employee, params.role]
-    ];
-
-    console.log(dbParams);
-
     const sql = `UPDATE employee SET role_id = ${params.role} WHERE id = ${params.employee}`;
 
     db.query(sql, (err, results) => {

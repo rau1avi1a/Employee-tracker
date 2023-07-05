@@ -11,7 +11,7 @@ This application keeps track of employee's information.
 ## Installation
 MySQL is required for this application. First run 'npm i' on the console command and then connect to your MySQL using 'mysql -uroot -p". Once connected run 'source db/schema.sql;' followed by 'source db/seeds.sql;'.
 ## Usage
-In order to use this application, run 'npm start' on your console and follow the commands. This video will go through all the options.
+In order to use this application, run 'npm start' on your console and follow the commands. This [video](https://drive.google.com/file/d/1THOUvp_kZmRdcjXVknk-SeeKjd9O1ulf/preview) will go through all the options.
 ## License
 N/A
 ## Contributing
